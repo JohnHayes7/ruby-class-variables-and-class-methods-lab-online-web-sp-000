@@ -33,7 +33,7 @@ class Song
          @@genre_count[i] += 1
           
       else
-        @@genre_count = {i => 1}
+        @@genre_count[i] = 1
       end
     end
     @@genre_count 

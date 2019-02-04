@@ -36,6 +36,7 @@ class Song
         @@genre_count = {i => 1}
       end
     end
+    @@genre_count
   end
   
   

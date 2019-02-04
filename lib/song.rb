@@ -30,7 +30,7 @@ class Song
   
   def self.genre_count
      @@genres.uniq.each do |i|
-     @@genre_count[:@genre] = 
+     @@genre_count[:@genre] = @@genre_amount += 1
      end
     
   end

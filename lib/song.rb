@@ -29,7 +29,7 @@ class Song
   
   def self.genre_count
      @@genres.uniq.each do |i|
-       if @@genres.keys.include?(@genre) == false
+       if @@genres.key.include?(@genre) == false
           @@genre_count = {@genre => 1}
        else
          @@genre_count[@genre][@@genre_count.values += 1]

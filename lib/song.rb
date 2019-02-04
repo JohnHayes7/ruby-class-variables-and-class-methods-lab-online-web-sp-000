@@ -32,7 +32,7 @@ class Song
        if @@genres.keys.include?(@genre) == false
           @@genre_count = {@genre => 1}
        else
-         @@genre_count[@genre][+= 1]
+         @@genre_count[@genre][@@genre_count.values += 1]
        end
      end
     

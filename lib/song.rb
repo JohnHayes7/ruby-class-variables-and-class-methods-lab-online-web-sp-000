@@ -44,6 +44,8 @@ class Song
     @@artists.each do |i|
       if @@artist_count.keys.include?(i)
         @@artist_count[i] += 1
+      else
+        @@artist_count[i] = 1
     end
   end
   

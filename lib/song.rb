@@ -28,7 +28,8 @@ class Song
   end
   
   def self.genre_count
-     @@genres.uniq
+     @@genres.uniq.each do |i|
+     end
     
   end
   

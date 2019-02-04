@@ -46,6 +46,7 @@ class Song
         @@artist_count[i] += 1
       else
         @@artist_count[i] = 1
+      end
     end
   end
   
